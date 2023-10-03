@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');*/
+
+body{
+    font-family: 'Cairo';
+    background-image: url("https://cdn.dribbble.com/userupload/9181265/file/original-bd3f29f87e2c47ad99a9c5c76c8aa616.jpg?resize=1200x899");
+
+}
+
+:root{
+    --main-color:#ffc527;
+}
+
+header.hero{
+    height: 45vh;
+    backdrop-filter: blur(100px);
+}
+ .navbar{
+    position: fixed;
+    width: 100%;
+     z-index: 1;
+
+}
+ .navbar-brand{
+     display: flex;
+ }
+
+ nav .icons div{
+     width: 40px;
+     text-align: center;
+     color: white;
+     background-color: rgba(237, 235, 235, 0.15);
+ }
+
+ .navbar-brand .wrapper-brand-name{
+    display: flex;
+    flex-direction: column;
+     color: white;
+     letter-spacing: 2px;
+ }
+ .navbar-brand .wrapper-brand-name .brand-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+ .navbar-brand i {
+     color: white;
+ }
+  .navbar-brand .brand-desc{
+    font-size: 12px;
+ }
+
+ header > section.title{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 90%;
+     color: white;
+
+ }
+ header > section.title p{
+     color: #bababa;
+ }
+
+ main{
+     min-height: 55vh;
+     background-color: rgba(0, 0, 0, 0.51);
+     backdrop-filter: blur(100px);
+     color: white;
+ }
+main .head {
+    padding: 20px;
+}
+ main .btns-filter button{
+    border-radius: 30px 30px;
+     background-color: rgba(255, 255, 255, 0.16);
+     border-color: rgba(255, 255, 255, 0.16);
+     margin-bottom: 10px;
+ }
+ main a.btn-see_more{
+     color: inherit;
+     text-decoration: none;
+ }
+ main .btn-see_more i{
+     display: inline-block;
+     width: 30px;
+     background-color: rgba(253, 255, 255, 0.21);
+     border-radius: 15px;
+     text-align: center;
+ }
+
+ main .cards .card {
+     border-radius: 20px;
+     background-color: rgba(253, 255, 255, 0.11);
+     border-color: rgba(253, 255, 255, 0.11);
+     color: white;
+ }
+ main .cards .card img {
+     border-radius: 20px 20px 0px 0px;
+ }
+
+ main .cards .card .card-text {
+     color: #bababa;
+     font-size: small;
+ }
+ main .cards .row>div{
+     padding: 5px;
+     max-width: 90%;
+     margin: auto;
+ }
+ main .cards .card .card-text .rating{
+     display: inline-block;
+     padding: 2px 6px;
+     border-radius: 15px;
+     font-size: smaller;
+     background-color: rgba(253, 255, 255, 0.11);
+     margin-left: 5px;
+ }
+ main .cards .card .card-text i{
+     color: #ffcd08;
+ }
+
+
+
